@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nyxu
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - env:
+        - name: POC
+          value: POC
+        image: quay.io/redhat-appstudio-qe/byoc-xnky-tenant/byoc-app-pvgg/nyxu@sha256:816de0529e63372ca0e4d93e3dc6c4bd806f9d68324723a505192685bce24296
+        name: my-java-quarkus
+        resources: {}
+status: {}
