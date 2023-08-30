@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nyxu
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-xnky-tenant/byoc-app-pvgg/nyxu@sha256:816de0529e63372ca0e4d93e3dc6c4bd806f9d68324723a505192685bce24296
         name: my-java-quarkus
         ports:
         - containerPort: 8081
